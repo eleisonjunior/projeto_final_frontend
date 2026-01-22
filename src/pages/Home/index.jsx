@@ -2,7 +2,6 @@
 import { useState } from 'react'
 import api from '../../config/api'
 import './style.css'
-import cors from 'cors';
 
 function Home() {
   const [username, setUsername] = useState('');
